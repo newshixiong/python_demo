@@ -11,11 +11,11 @@ mail_pass = "xxxxxx"  # 口令
 
 
 sender = mail_user
-receivers = [mail_user, '635672377@qq.com']  # 接收邮件，可设置为你的QQ邮箱或者其他邮箱
+receivers = [mail_user, 'xxxxxxx@qq.com']  # 接收邮件，可设置为你的QQ邮箱或者其他邮箱
 
 message = MIMEText('小可爱，今天晚上我们买点板栗哦', 'plain', 'utf-8')
 message['From'] = mail_user
-message['To'] = "635672377@qq.com"
+message['To'] = "xxxxxxx@qq.com"
 
 subject = '服务器异常情况'
 message['Subject'] = Header(subject, 'utf-8')
